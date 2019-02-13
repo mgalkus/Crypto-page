@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+section {
+    padding: 70px 0 70px 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+// So that on mobile, upon clicking on the menu button there wuld be no scroll
+.no-scroll {
+    overflow-y: hidden;
+}
+
+.active-menu {
+    display: block;
+    position: fixed;
+    z-index: 900;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+    ul {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin-bottom: 25px;
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,39 @@
+@mixin btn {
+    align-items: center;
+    background: $mid-blue;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    height: 50px;
+    justify-content: center;
+    margin: 0 7px 0 7px;
+    text-transform: uppercase;
+    transition: .2s;
+    user-select: none;
+    width: 185px;
+
+    &:hover {
+        background: darken($mid-blue, 10%);
+    }
+
+    img {
+        margin-left: 10px;
+        width: 14px;
+    }
+}
+
+@mixin heading2 {
+    color: $black;
+    font-size: 30px;
+    font-weight: 300;
+    width: 100%;
+}
+
+@mixin line ($color){
+    background: $color;
+    height: 9px;
+    margin: 20px 0;
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+.progress {
+    cursor: pointer;
+    position: relative; // So that I can position the text within it.
+    margin: 0 7px 0 7px;
+
+    .progress-circle-prog {
+        stroke: $mid-blue;
+    }
+
+    .one {
+        stroke-dasharray: 35 999;
+    }
+
+    .two {
+        stroke-dasharray: 20 999;
+    }
+
+    .three {
+        stroke-dasharray: 135 999;
+    }
+
+    .four {
+        stroke-dasharray: 65 999;
+    }
+}
+
+.progress-circle {
+    transform: rotate(-90deg);
+}
+
+.progress-circle-back {
+    fill: none;
+    stroke: #eeeeee;
+    stroke-width: 3px;
+}
+
+.progress-circle-prog {
+    fill: none;
+    stroke: #eeeeee;
+    stroke-dasharray: 1 999;
+    stroke-width: 3px;
+    transition: stroke-dasharray 0.5s linear 0s;
+
+}
+
+.progress-text {
+    left: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
