@@ -1,5 +1,5 @@
 ABOUT  
-A responsive one page site with animaton, inspired by a design for a crypto platform site.
+A responsive one page site with animaton, based on a design for a crypto platform site.
 
 FEATURES  
 Made using HTML, Sass and JS.  

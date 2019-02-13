@@ -8,11 +8,11 @@
     font-weight: 500;
     height: 50px;
     justify-content: center;
-    margin: 0 7px 0 7px;
     text-transform: uppercase;
     transition: .2s;
     user-select: none;
     width: 185px;
+
 
     &:hover {
         background: darken($mid-blue, 10%);
